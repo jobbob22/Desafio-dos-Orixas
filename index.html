@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Define o conjunto de caracteres da página como UTF-8 -->
+    <meta charset="UTF-8">
+    
+    <!-- Define a largura da viewport para que a página se ajuste corretamente em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Link para o arquivo de estilos CSS externo -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Preconecta ao domínio para melhorar o tempo de carregamento dos recursos externos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Importa a fonte 'Bungee Tint' do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap" rel="stylesheet">
+    
+    <!-- Define o título da página que será exibido na aba do navegador -->
+    <title>&#x1F33F; SABEDORIA DA UMBANDA&#x1F33F;</title>
+</head>
+<body>
+    <!-- Cabeçalho da página -->
+    <header class="cabecalho">
+        <!-- Título principal da página com uma classe específica para a fonte -->
+        <h1 class="bungee-tint-regular">&#x1FA98;SABEDORIA DA UMBANDA&#x1FA98;</h1>
+    </header>
+    
+    <!-- Conteúdo principal da página -->
+    <main>
+        <!-- Seção de pesquisa -->
+        <section>
+            <!-- Campo de entrada para pesquisa com um texto de placeholder -->
+            <input type="text" id="pesquisa" class="input-field" placeholder="Digite o nome do Orixá ou linha da Entidade">
+            <!-- Botão que, ao ser clicado, chama a função 'pesquisar()' -->
+            <button onclick="pesquisar()" class="search-button">Pesquisar</button>
+            <!-- Div para exibir os resultados da pesquisa -->
+            <div id="resultados-pesquisa"></div>
+        </section>
+        
+        <!-- Seção para exibir os resultados da pesquisa -->
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+            <!-- Divs para listar Orixás e Entidades -->
+            <div id="lista-de-orixas"></div>
+            <div id="lista-de-entidades"></div>
+        </section>
+    </main>
+    
+    <!-- Rodapé da página -->
+    <footer>
+        <!-- Informações de direitos autorais -->
+        <p>2024 - ORIXAS DA UMBANDA. Todos os direitos reservados</p>
+        <!-- Informações de contato -->
+        <p>Dúvidas entre em contato pelo telefone: 11995825288</p>
+    </footer>
+    
+    <!-- Scripts JavaScript externos -->
+    <!-- Script para carregar dados -->
+    <script src="dados.js"></script>
+    <!-- Script para funcionalidades da aplicação -->
+    <script src="app.js"></script>
+</body>
+</html>
