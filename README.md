@@ -37,4 +37,4 @@ O JavaScript faz a mágica toda. Quando você digita algo na barra de pesquisa, 
 💬 Fale com a gente!
 Se você tiver alguma dúvida ou sugestão, é só entrar em contato pelo telefone: 11995825288.
 
-Esperamos que você se divirta aprendendo e explorando esse universo tão rico e cheio de cultura. Axé! 🙌
+Esperamos que você se divirta aprendendo e explorando esse universo tão rico e cheio de cultura. Axé!!!! 🙌
